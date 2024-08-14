@@ -1,0 +1,126 @@
+nav {
+  color: #000;
+  background-color: azure;
+  height: 30px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  padding-top: 20px;
+  z-index: 1;
+}
+nav b {
+  padding-top: 40px;
+}
+nav a {
+  float: right;
+  margin-right: 65px;
+  text-decoration: none;
+  color: #000;
+  /* background-color: #efdbdbad; */
+  width: 50px;
+  height: 20px;
+  border: 2px transparent black;
+  padding: 3px;
+  font-weight: 800px;
+  
+}
+
+#sec_1 b {
+  position: absolute;
+  top: 423px;
+  left: 625px;
+  font-size: 40px;
+  color: antiquewhite;
+  border: 1px solid black;
+  background-color: #000;
+}
+#sec_1 span {
+  position: absolute;
+  top: 425px;
+  left: 700px;
+  font-size: 30px;
+  color: white;
+}
+#sec_1 img {
+  width: 100%;
+}
+
+
+#sec_2{
+    align-content: center;
+}
+#sec_2 img{
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+/* #sec_2 #sum{
+position: relative;
+top: 50px;
+left: 70px;
+color: white;
+background-color: black;
+width: 114px;
+height: 30px;
+border-top-left-radius: 14px;
+padding-top: 10px;
+} */
+
+.house{
+    display: flex;
+}
+.house #summer{
+    position: absolute;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+.house #brick{
+    position: absolute;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+.house #renovated{
+    position: absolute;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+.house #barn{
+    position: absolute;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+#About input {
+    border: none;
+  }
+  #About button {
+    width: 100%;
+    height: 40px;
+  }
+  #About {
+    display: flex;
+    margin-left: 70px;
+  }
+
+  #sec_3 input {
+    width: 100%;
+    height: 30px;
+  }
+  #sec_3 button {
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+    width: 180px;
+  }
+  #map img{
+    width: 100%;
+
+    }
